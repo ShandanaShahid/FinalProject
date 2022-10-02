@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@400;900&family=Splash&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Link360</title>
+  </head>
+  <body>
+    
+    
+        <div class="container-fluid mt-n1">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link mt-3" href="/home" style="color:black;font-size:18px">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-3" href="/findbycategory/${all}" style="color:black;font-size:18px">PAKISTAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-3" href="/findbycategory/${all}" style="color:black;font-size:18px">BUSINESS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-3" href="/findbycategory/${all}" style="color:black;font-size:18px">LIFE&STYLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-3" href="/findbycategory/${all}" style="color:black;font-size:18px">WORLD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mt-3" href="/findbycategory/${HEALTH}" style="color:black;font-size:18px">HEALTH</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mt-3" href="/findbycategory/${TECHNOLOGY}" style="color:black;font-size:18px">TECHNOLOGY</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link mt-3" href="/findbycategory/${ISLAM}" style="color:black;font-size:18px">ISLAM</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link mt-3" href="/findbycategory/${all}" style="color:black;font-size:18px">SPORTS</a>
+              </li>
+              <li class="nav-item">
+          <a class="nav-link mt-3" href="/profiles" style="color:black;font-size:18px">Authors</a>
+            </li>
+            <li class="nav-item">
+           <a class="nav-link mt-3" href="/" style="color:black;font-size:18px"><strong>SIGN OUT</strong></a>
+            </li>
+            </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" href="#"><button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Add a Blog</button></a>
+                <!--model starts from here-->
+                <div class="modal fade" id="exampleModal" tabmy_index="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-dark">
+        <h5 class="modal-title text-center" id="exampleModalLabel"><img src="../images/untitled.png"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="article" method="post">
+        <div class="d-flex justify-content-center">
+              <h3 style="color:#f87b1c;">Sign In</h3> 
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="t1" placeholder="Email">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-12">
+              <input type="password" class="form-control" id="p1" placeholder="Password">
+            </div>
+          </div>
+                    <div class="row mb-3">
+            <div class="col-sm-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Remember Me
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+          <button type="button" class="btn btn-primary" id="but1" onclick="validate()" style="background-color:#f87b1c">Login</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--    end of sign in button  -->
+                <!--model ends here-->
+              </li>
+          </ul>
+          <div class="container">
+          <hr></div>
+        </div>  <br>
+</body>
+</html>
